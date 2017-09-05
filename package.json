@@ -1,0 +1,27 @@
+{
+  "name": "puppy-pics",
+  "version": "0.0.1",
+  "description": "Puppy pictures as placeholders",
+  "main": "index.js",
+  "repository": "https://github.com/hawkins/puppy-pics",
+  "author": "Josh Hawkins <hawkinswritescode@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "micro-dev index.js"
+  },
+  "now": {
+    "env": [
+      "GOOGLE_CSE_ID",
+      "GOOGLE_API_KEY"
+    ]
+  },
+  "dependencies": {
+    "google-images": "^2.1.0",
+    "micro": "^8.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "micro-dev": "^1.2.2"
+  }
+}
