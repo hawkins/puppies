@@ -10,8 +10,17 @@ const client = new GoogleImages(
 
 let images = [];
 
-client.search("puppies").then(results => (images = results));
+function updateImages() {
+  client.search("puppies").then(results => {
+    images = results;
+    console.log("Images updated");
+  });
+}
+
+updateImages();
+
+setInterval(updateImages, 900000);
 
 module.exports = cors(() => {
-  if (images) return images;
+  return images;
 });
