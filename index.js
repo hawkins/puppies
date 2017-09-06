@@ -1,4 +1,5 @@
 const GoogleImages = require("google-images");
+const cors = require("micro-cors")();
 
 if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
@@ -11,6 +12,6 @@ let images = [];
 
 client.search("puppies").then(results => (images = results));
 
-module.exports = () => {
+module.exports = cors(() => {
   if (images) return images;
-};
+});

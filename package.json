@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "google-images": "^2.1.0",
-    "micro": "^8.0.4"
+    "micro": "^8.0.4",
+    "micro-cors": "^0.0.4"
   },
   "devDependencies": {
     "dotenv": "^4.0.0",
