@@ -12,8 +12,21 @@ I really like dogs. Dogs are great. And puppies are adorable. So when I was work
 
 Returns a JSON array of images, i.e.
 
-```
-[{"type":"image/jpeg","width":480,"height":360,"size":19463,"url":"https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg","thumbnail":{"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQihVZOhZZ73-ePag8fgdTAV-8Gf-9xchf2e8BrgfBCGySVDfxe_rkFkyZX","width":129,"height":97},"description":"Funny Puppies And Cute Puppy Videos Compilation 2016 [BEST OF ...","parentPage":"https://www.youtube.com/watch?v=mRf3-JkwqfU"}, ...]
+```JSON
+[
+  {"type":"image/jpeg",
+   "width":480,
+   "height":360,
+   "size":19463,
+   "url":"https://i.ytimg.com/vi/mRf3-JkwqfU/hqdefault.jpg",
+   "thumbnail": {"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQihVZOhZZ73-ePag8fgdTAV-8Gf-9xchf2e8BrgfBCGySVDfxe_rkFkyZX",
+                 "width":129,
+                 "height":97
+                },
+   "description":"Funny Puppies And Cute Puppy Videos Compilation 2016 [BEST OF ...",
+   "parentPage":"https://www.youtube.com/watch?v=mRf3-JkwqfU"
+  },
+...]
 ```
 
 ## Example Usage
