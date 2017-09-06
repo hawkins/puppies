@@ -1,9 +1,9 @@
 {
-  "name": "puppy-pics",
+  "name": "puppies",
   "version": "0.0.1",
   "description": "Puppy pictures as placeholders",
   "main": "index.js",
-  "repository": "https://github.com/hawkins/puppy-pics",
+  "repository": "https://github.com/hawkins/puppies",
   "author": "Josh Hawkins <hawkinswritescode@gmail.com>",
   "license": "MIT",
   "scripts": {
